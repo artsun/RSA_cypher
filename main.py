@@ -15,9 +15,9 @@ p = randint(0, 99999)
 p = prime_n(p)
 q = randint(0, 99999)
 q = prime_n(q)
-print(p, q)
+
 n = p * q
-print(n)
+
 fi_n = (p-1) * (q-1)
 print("fi_n", fi_n)
 e = 65537
