@@ -27,11 +27,7 @@ n = p * q
 fi_n = (p-1) * (q-1)
 print("fi_n", fi_n)
 e = 65537
-# while True:
-#     private = randrange(fi_n)
-#     print("private", private)
-#     if gcd(private, fi_n) == 1:
-#         break
+
 
 print("gcd:", gcd(e, fi_n))
 d = bezout(fi_n, e)
